@@ -209,7 +209,7 @@ npx serve
 🌐 Deploy
 Este projeto está pronto para deploy estático em qualquer plataforma gratuita:
 
-Plataforma	Como fazer	URL gerada
+Plataforma -- Como fazer --	URL gerada
 GitHub Pages	Settings → Pages → Branch main → Save	misaandrejezieski.github.io/TechNova
 Vercel	Importa o repositório em vercel.com	technova.vercel.app
 Netlify	Arrasta a pasta em app.netlify.com/drop	technova.netlify.app
