@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="TechNova — Notebooks, peças e periféricos para gamers e profissionais.">
+  <meta name="theme-color" content="#0a0812">
+  <title>TechNova — Loja de Informática</title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header id="header">
+    <a href="index.html" class="logo">
+      <div class="logo-mark"></div>
+      Tech<span>Nova</span>
+    </a>
+
+    <nav>
+      <ul>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="notebooks.html">Notebooks</a></li>
+        <li><a href="pecas.html">Peças</a></li>
+        <li><a href="perifericos.html">Periféricos</a></li>
+        <li><a href="suporte.html">Suporte</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Buscar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="11" cy="11" r="7"/>
+          <path d="m20 20-3.5-3.5"/>
+        </svg>
+      </button>
+      <button class="icon-btn" aria-label="Carrinho">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/>
+          <path d="M3 6h18"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        <span class="cart-badge">3</span>
+      </button>
+      <button class="menu-toggle" aria-label="Menu">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+      </button>
+      <button class="btn-primary">Entrar</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <canvas id="c"></canvas>
+
+    <div class="hero-content">
+      <div class="hero-tag">Nova linha 2026 disponível</div>
+      <h1>
+        Performance que <span>você sente</span>,<br>
+        tecnologia que <span>você confia</span>.
+      </h1>
+      <p>
+        Notebooks, peças e periféricos selecionados para gamers,
+        criadores e profissionais que não aceitam menos que o máximo.
+      </p>
+      <div class="hero-buttons">
+        <a href="produtos.html" class="btn-primary">Explorar produtos</a>
+        <a href="produtos.html#ofertas" class="btn-secondary">Ver ofertas do dia</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="products" id="produtos">
+    <div class="section-header">
+      <h2>Destaques da semana</h2>
+      <p>Os produtos mais procurados pela nossa comunidade, com frete grátis e garantia estendida.</p>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-icon">💻</div>
+        <h3>Notebook Gamer Pro</h3>
+        <p>RTX 4070 · 32GB RAM · SSD 1TB NVMe · Tela 165Hz</p>
+        <div class="product-price">R$ 8.499 <small>R$ 9.999</small></div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-icon">🖥️</div>
+        <h3>Monitor UltraWide 34"</h3>
+        <p>4K · 144Hz · HDR600 · USB-C 90W · Curvo</p>
+        <div class="product-price">R$ 3.199 <small>R$ 3.899</small></div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-icon">⌨️</div>
+        <h3>Teclado Mecânico RGB</h3>
+        <p>Switch Hot-Swap · Wireless 2.4G · Bateria 4000mAh</p>
+        <div class="product-price">R$ 449 <small>R$ 599</small></div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-icon">🖱️</div>
+        <h3>Mouse Gamer 26K DPI</h3>
+        <p>Óptico · 8 botões · RGB · Peso ajustável</p>
+        <div class="product-price">R$ 289 <small>R$ 399</small></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-mark"></div>
+          Tech<span>Nova</span>
+        </a>
+        <p>Tecnologia de ponta para quem exige performance.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Loja</h4>
+        <ul>
+          <li><a href="notebooks.html">Notebooks</a></li>
+          <li><a href="pecas.html">Peças</a></li>
+          <li><a href="perifericos.html">Periféricos</a></li>
+          <li><a href="produtos.html">Todos os produtos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Suporte</h4>
+        <ul>
+          <li><a href="suporte.html">Central de ajuda</a></li>
+          <li><a href="suporte.html">Garantia</a></li>
+          <li><a href="suporte.html">Trocas e devoluções</a></li>
+          <li><a href="suporte.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Institucional</h4>
+        <ul>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Trabalhe conosco</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Termos de uso</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 TechNova · Todos os direitos reservados
+    </div>
+  </footer>
+
+  <script src="js/sphere.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

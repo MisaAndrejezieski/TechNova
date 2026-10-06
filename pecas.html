@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peças — TechNova</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/page.css">
+</head>
+<body>
+
+  <header id="header">
+    <a href="index.html" class="logo"><div class="logo-mark"></div>Tech<span>Nova</span></a>
+    <nav>
+      <ul>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="notebooks.html">Notebooks</a></li>
+        <li><a href="pecas.html">Peças</a></li>
+        <li><a href="perifericos.html">Periféricos</a></li>
+        <li><a href="suporte.html">Suporte</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+      <button class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg><span class="cart-badge">3</span></button>
+      <button class="menu-toggle"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+      <button class="btn-primary">Entrar</button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Peças</span></div>
+      <h1>Peças e componentes</h1>
+      <p>Monte, atualize ou conserte — temos os componentes certos para cada projeto.</p>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <div class="filter-chips">
+      <button class="chip active">Todas</button>
+      <button class="chip">Placas de vídeo</button>
+      <button class="chip">Processadores</button>
+      <button class="chip">Memórias</button>
+      <button class="chip">Armazenamento</button>
+      <button class="chip">Fontes</button>
+    </div>
+    <select class="sort-select">
+      <option>Mais relevantes</option>
+      <option>Menor preço</option>
+      <option>Maior preço</option>
+    </select>
+  </div>
+
+  <section class="page-content">
+    <div class="product-grid-lg">
+      <article class="card">
+        <div class="card-image"><span class="card-badge hot">Hot</span>🎮</div>
+        <div class="card-body">
+          <h3>Placa de Vídeo RTX 4070 Ti</h3>
+          <p>12GB GDDR6X · Ray Tracing · DLSS 3</p>
+          <div class="card-specs"><span class="spec-tag">12GB</span><span class="spec-tag">GDDR6X</span></div>
+          <div class="card-footer">
+            <div class="card-price">R$ 5.899</div>
+            <button class="btn-cart"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image">🧠</div>
+        <div class="card-body">
+          <h3>Processador Ryzen 9 7950X</h3>
+          <p>16 núcleos · 32 threads · até 5.7 GHz</p>
+          <div class="card-specs"><span class="spec-tag">16-core</span><span class="spec-tag">AM5</span></div>
+          <div class="card-footer">
+            <div class="card-price">R$ 3.499 <small>R$ 4.199</small></div>
+            <button class="btn-cart"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image">💾</div>
+        <div class="card-body">
+          <h3>SSD NVMe Gen4 2TB</h3>
+          <p>7.400 MB/s de leitura · Garantia 5 anos</p>
+          <div class="card-specs"><span class="spec-tag">2TB</span><span class="spec-tag">Gen4</span></div>
+          <div class="card-footer">
+            <div class="card-price">R$ 899 <small>R$ 1.199</small></div>
+            <button class="btn-cart"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image">⚡</div>
+        <div class="card-body">
+          <h3>Memória DDR5 32GB (2x16)</h3>
+          <p>6000 MHz · CL30 · RGB</p>
+          <div class="card-specs"><span class="spec-tag">DDR5</span><span class="spec-tag">6000MHz</span></div>
+          <div class="card-footer">
+            <div class="card-price">R$ 1.199 <small>R$ 1.499</small></div>
+            <button class="btn-cart"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><div class="logo-mark"></div>Tech<span>Nova</span></a>
+        <p>Tecnologia de ponta para quem exige performance.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Loja</h4>
+        <ul>
+          <li><a href="notebooks.html">Notebooks</a></li>
+          <li><a href="pecas.html">Peças</a></li>
+          <li><a href="perifericos.html">Periféricos</a></li>
+          <li><a href="produtos.html">Todos os produtos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Suporte</h4>
+        <ul>
+          <li><a href="suporte.html">Central de ajuda</a></li>
+          <li><a href="suporte.html">Garantia</a></li>
+          <li><a href="suporte.html">Trocas</a></li>
+          <li><a href="suporte.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Institucional</h4>
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Termos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 TechNova · Todos os direitos reservados</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
