@@ -439,7 +439,6 @@ https://img.shields.io/badge/Portf%C3%B3lio-Ver_site-ffb3d9?style=for-the-badge
 
 🛠️ Ferramentas: VS Code + Live Server
 
-<div align="center">
 ⭐ Se este projeto te ajudou ou inspirou, deixa uma estrela no repositório!
 Feito com 💜 e muito ☕ por Misa Andrejezieski
 
