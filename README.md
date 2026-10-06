@@ -165,14 +165,14 @@ TechNova/
 ├── 📝 README.md               # Este arquivo
 └── 📝 LICENSE                 # Licença MIT
 🛠️ Stack técnica
-<div align="center">
+
 Camada -- Tecnologia --	Uso
 Estrutura: HTML5 semântico: 6 páginas com tags semânticas (header, nav, section, article, footer)
 Estilo: CSS3 moderno: Grid, Flexbox, custom properties, clip-path, backdrop-filter, mask-image
 Comportamento: JavaScript ES6+	Canvas 2D API, IntersectionObserver, requestAnimationFrame, Pointer Events
 Tipografia: Google Fonts: Space Grotesk, Inter, JetBrains Mono
 Ícones: SVG inline + Emojis	Zero bibliotecas de ícones
-</div>
+
 🚀 Como rodar localmente
 Opção 1 — Abrir direto no navegador
 bash
