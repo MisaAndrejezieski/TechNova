@@ -423,14 +423,13 @@ Este projeto está sob a licença MIT — veja o arquivo LICENSE para detalhes.
 Você é livre para usar, modificar e distribuir — inclusive comercialmente. Só pedimos que mantenha o crédito original.
 
 👤 Autor
-<div align="center">
+
 Misa Andrejezieski
 
 https://img.shields.io/badge/GitHub-MisaAndrejezieski-181717?style=for-the-badge&logo=github
 https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin
 https://img.shields.io/badge/Portf%C3%B3lio-Ver_site-ffb3d9?style=for-the-badge
 
-</div>
 🙏 Créditos
 🔤 Fontes: Google Fonts — Space Grotesk, Inter, JetBrains Mono
 
