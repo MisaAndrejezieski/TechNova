@@ -166,7 +166,7 @@ TechNova/
 └── 📝 LICENSE                 # Licença MIT
 🛠️ Stack técnica
 <div align="center">
-Camada	Tecnologia	Uso
+Camada -- Tecnologia --	Uso
 Estrutura: HTML5 semântico: 6 páginas com tags semânticas (header, nav, section, article, footer)
 Estilo: CSS3 moderno: Grid, Flexbox, custom properties, clip-path, backdrop-filter, mask-image
 Comportamento: JavaScript ES6+	Canvas 2D API, IntersectionObserver, requestAnimationFrame, Pointer Events
